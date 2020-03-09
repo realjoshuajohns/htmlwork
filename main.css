@@ -1,25 +1,22 @@
 * {
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(255, 250, 255);
     box-sizing: border-box;
-    padding: 8px 5px 10px 5px;
+    padding: 5px 5px 8px 5px;
 }
 
 .logo{
     font-family: 'Bitter', serif;
     text-align: left;
-    font-size: xx-large;
+    font-size: 50px;
 }
 
-.rectangle {
-    height: 2px;
-    width: auto
-}
+
 
 .mainTitle {
     text-align: center;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
 .tabBar {
@@ -28,7 +25,17 @@
     
 }
 
+.inset {
+    border-style: inset;
+    border-top-color: lightgoldenrodyellow;
+    border-bottom-color: rgb(208, 213, 243);
+}
 
+.groove{
+    border-style: groove;
+    border-top-color: #ed008b ;
+    border-bottom-color: #00befa;
+}
 
 h2{
     font-family: 'Merriweather Sans', sans-serif;
@@ -39,6 +46,7 @@ p{
     font-family: 'Nanum Gothic', sans-serif;
     text-align: justify center;
     width: auto;
+    
 }
 
 
