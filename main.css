@@ -1,55 +1,135 @@
-* {
-    background-color: rgb(255, 250, 255);
+*{
     box-sizing: border-box;
-    padding: 5px 5px 8px 5px;
+    padding: 5px;
+   
+    
+}
+ 
+
+
+#background{
+    background-image: url(bwCoding.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: teal;
+}
+
+#backgroundP2{
+    background-image: url(wallpaper.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(31, 31, 74);
+}
+
+#backgroundP3{
+    background-image: url(mobWallpaper.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: violet;
 }
 
 .logo{
-    font-family: 'Bitter', serif;
+    font-family: 'Playfair Display', serif;
     text-align: left;
-    font-size: 50px;
+    font-size: 60px;
+    color: white;
 }
 
-
-
-.mainTitle {
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-}
 
 .tabBar {
     text-align: right;
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    
     
 }
 
-.inset {
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Arvo', serif;
+        font-weight: 200;
+    color: white;
     border-style: inset;
-    border-top-color: lightgoldenrodyellow;
-    border-bottom-color: rgb(208, 213, 243);
-}
-
-.groove{
-    border-style: groove;
-    border-top-color: #ed008b ;
+    border-top-color: #ed008b;
     border-bottom-color: #00befa;
 }
 
-h2{
-    font-family: 'Merriweather Sans', sans-serif;
+
+
+.homeHeader{
+    font-family: 'Abel', sans-serif;
+
     text-align: center;
     font-weight: lighter;
+    color: white;
+    font-size: 40px;
 }   
-p{
+
+.button {
+    background-color: #ed008b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     font-family: 'Nanum Gothic', sans-serif;
-    text-align: justify center;
-    width: auto;
     
+  }
+
+p{
+
+    margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 40%;
+    color: white;
+    font-size: x-large;
+    border: inset;
+    border-radius: 5%;
+    border-color: aqua;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+ 
+.containerButton{
+    display: flex;
+    justify-content: center;
+}
+
+.containerTab{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+
+.imgProp{
+    size: auto;
 }
 
 
 
+ 
+h2{
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-align: center;
 
+}
 
+h3{
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-align: center;
+}
