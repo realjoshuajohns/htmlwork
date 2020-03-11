@@ -8,8 +8,8 @@
 
 
 #background{
-    background-image: url(bwCoding.jpg);
-    background-size: contain;
+    background-image: url(darkHighResCoding.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: teal;
 }
@@ -30,9 +30,10 @@
 
 .logo{
     font-family: 'Playfair Display', serif;
-    text-align: left;
+    text-align: start;
     font-size: 60px;
     color: white;
+    
 }
 
 
@@ -83,16 +84,17 @@ h1 {
 p{
 
     margin: auto;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
     width: 40%;
     color: white;
     font-size: x-large;
-    border: inset;
-    border-radius: 5%;
-    border-color: aqua;
+    /* border: inset; */
+    /* border-radius: 5%;
+    border-color: aqua; */
     text-align: center;
     justify-content: center;
-    background-color: black;
+    /* background-color: black; */
 }
  
 .containerButton{
@@ -102,7 +104,7 @@ p{
 
 .containerTab{
     display: flex;
-    align-items: baseline;
+    justify-content: flex-end;
 
 }
 
