@@ -22,7 +22,7 @@
 }
 
 #backgroundP3{
-    background-image: url(mobWallpaper.jpg);
+    background-image: url(darkerMobWall.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: violet;
@@ -46,7 +46,7 @@
     
 }
 
-h1 {
+.homeTitle {
     text-align: center;
     font-size: 70px;
     font-family: 'Arvo', serif;
@@ -55,8 +55,28 @@ h1 {
     border-style: inset;
     border-top-color: #ed008b;
     border-bottom-color: #00befa;
+    
 }
 
+.p1Title{
+    margin-top: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
+    font-weight: 200;
+    color: white;
+     border-style: inset;
+    border-top-color: #ed008b;
+    border-bottom-color: #00befa; 
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+ 
 
 
 .homeHeader{
@@ -89,14 +109,25 @@ p{
     width: 40%;
     color: white;
     font-size: x-large;
-    /* border: inset; */
-    /* border-radius: 5%;
+    /* border: inset; 
+     border-radius: 5%;
     border-color: aqua; */
     text-align: center;
     justify-content: center;
     /* background-color: black; */
 }
  
+.textBackground{
+  border-style: inset;
+  background-color: black;
+  border-top: gold;
+  border-bottom: silver;
+  
+    
+  
+}
+    
+
 .containerButton{
     display: flex;
     justify-content: center;
