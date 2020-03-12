@@ -15,22 +15,35 @@
 }
 
 #backgroundP2{
-    background-image: url(wallpaper.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgb(31, 31, 74);
-}
+    background: url(wallpaper.jpg) left top no-repeat, url(darkBluePattern.jpg) left top repeat;
+    background-size: contain, auto;
+  }
+    
+
+
+#backgroundP1{
+    background: url(darkerMobWall.jpg) left top no-repeat, url(pinkPattern.jpeg) left top repeat;
+    background-size: contain, auto;
+  }
+
 
 #backgroundP3{
-    background-image: url(darkerMobWall.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: violet;
-}
+    background: url(darkNetwork.jpg) left top no-repeat, url(midBluePattern.jpg) left top repeat;
+    background-size: contain, auto;
+  }
 
-.logo{
+#backgroundP4{
+    background: url(highTechDark.jpg) left top no-repeat, url(circleBlue.jpg) left top repeat;
+    background-size: contain, auto;
+  }
+  #backgroundP5{
+    background: url(laptopDark.jpg) left top no-repeat, url(darkGreypattern.jpg) left top repeat;
+    background-size: contain, auto;
+  }
+
+  .logo{
     font-family: 'Playfair Display', serif;
-    text-align: start;
+    text-align: left;
     font-size: 60px;
     color: white;
     
@@ -46,6 +59,11 @@
     
 }
 
+.pageScroll{
+    font-size: xx-large;
+    text-align: center;
+    justify-self: center;
+}
 .homeTitle {
     text-align: center;
     font-size: 70px;
@@ -59,15 +77,63 @@
 }
 
 .p1Title{
-    margin-top: 400px;
+    margin-top: 450px;
     text-align: center;
     font-size: 40px;
     font-family: 'Arvo', serif;
     font-weight: 200;
     color: white;
      border-style: inset;
-    border-top-color: #ed008b;
-    border-bottom-color: #00befa; 
+    border-top-color: gold;
+    border-bottom-color: lightgrey; 
+}
+
+.p2Title{
+    margin-top: 450px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Arvo', serif;
+    font-weight: 200;
+    color: white;
+     border-style: inset;
+    border-top-color: rgb(127, 80, 163);
+    border-bottom-color: rgb(78, 171, 68); 
+}
+
+.p3Title{
+    margin-top: 450px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Arvo', serif;
+    font-weight: 200;
+    color: white;
+     border-style: inset;
+    border-top-color: rgb(24, 45, 149);
+    border-bottom-color: rgb(171, 40, 40); 
+}
+
+.p4Title{
+    margin-top: 450px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Arvo', serif;
+    font-weight: 200;
+    color: white;
+     border-style: inset;
+    border-top-color: rgb(166, 34, 34);
+    border-bottom-color: rgb(41, 101, 186); 
+}
+
+.p5Title{
+    margin-top: 450px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Arvo', serif;
+    font-weight: 200;
+    color: white;
+     border-style: inset;
+    border-top-color: rgb(6, 3, 3);
+    border-bottom-color: grey; 
 }
 
 .containerTitle {
@@ -91,6 +157,7 @@
 .button {
     background-color: #ed008b; /* Green */
     border: none;
+    border-radius: 15px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -98,24 +165,11 @@
     display: inline-block;
     font-size: 16px;
     font-family: 'Nanum Gothic', sans-serif;
+    margin: 5px;
     
   }
 
-p{
 
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
-
-    width: 40%;
-    color: white;
-    font-size: x-large;
-    /* border: inset; 
-     border-radius: 5%;
-    border-color: aqua; */
-    text-align: center;
-    justify-content: center;
-    /* background-color: black; */
-}
  
 .textBackground{
   border-style: inset;
@@ -131,6 +185,7 @@ p{
 .containerButton{
     display: flex;
     justify-content: center;
+
 }
 
 .containerTab{
@@ -158,6 +213,7 @@ h2{
     font-family: 'Signika', sans-serif;
     color: white;
     text-align: center;
+    font-size: 35px;
 
 }
 
@@ -165,4 +221,106 @@ h3{
     font-family: 'Signika', sans-serif;
     color: white;
     text-align: center;
+    font-size: 25px;
+}
+
+.p1Text{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: black;
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.p1StartText{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: rgb(248, 240, 240);
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.openingText{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: rgb(248, 240, 240);
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
+}
+
+.p2Text{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: white;
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.p3Text{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: white;
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
+   
+}
+.p4Text{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: white;
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
+}
+
+.p5Text{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+    width: 40%;
+    color: white;
+    font-size: x-large;
+    /* border: inset; 
+     border-radius: 5%;
+    border-color: aqua; */
+    text-align: center;
+    justify-content: center;
 }
